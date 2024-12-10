@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: linear-gradient(45deg, #fe4001, #535353, #fbc2eb);
+    background: linear-gradient(45deg, #fe4001, #ff8c00ea, #fbe6c2);
     background-size: 400% 400%;
     animation: gradientMove 10s infinite ease-in-out;
     color: #333;
@@ -56,18 +56,18 @@ section {
     margin: 2rem auto;
     max-width: 800px;
     padding: 1rem;
-    background: white;
+    background: rgb(76, 77, 77);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Project Cards */
 .project-card {
-    background: #f8f9fa;
+    background: #f97101;
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 254, 254, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .project-card:hover {

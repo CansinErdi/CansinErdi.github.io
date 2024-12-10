@@ -4,57 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome</h1>
+        <h1 class="animate-text">Welcome</h1>
         <nav>
             <ul>
-                <li><a href="#aboutouch stt">Me</a></li>
+                <li><a href="#about">Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="about">
-            <h2>Me</h2>
-            <p>   Mein Name ist <strong>Cansın Erdi</strong>, geboren am 14. Oktober 1990 in Nürnberg. 
+        <section id="about" class="fade-in zoom-effect">
+            <h2>About Me</h2>
+            <p>
+                Mein Name ist <strong>Cansın Erdi</strong>, geboren am 14. Oktober 1990 in Nürnberg. 
                 Ich blicke auf eine vielseitige Karriere zurück, die sowohl die Gastronomie als auch die Technologiebranche umfasst. 
                 Aktuell bin ich in Berlin ansässig und widme mich meiner beruflichen Weiterentwicklung im Bereich 
                 <strong>Cloud Computing</strong> und <strong>DevOps</strong>, während ich weiterhin als Miteigentümer von 
                 <strong>Uludağ Kebapçısı</strong> aktiv bin, einem der bekanntesten gastronomischen Betriebe in der Türkei. 
-                Meine Kombination aus Unternehmertum und technologischer Expertise ist ein Alleinstellungsmerkmal, das meine Arbeit prägt.</p>
-            
+                Meine Kombination aus Unternehmertum und technologischer Expertise ist ein Alleinstellungsmerkmal, das meine Arbeit prägt.
+            </p>
         </section>
-        <section id="projects">
+        
+        <section id="projects" class="fade-in">
             <h2>Projects</h2>
-            <ul>
-                <li><strong>Gastronomie und Unternehmertum</strong>
-                    <ul>
-                        <li><strong>2008–2012:</strong> Architekturstudium (abgebrochen, um praktische Erfahrungen zu sammeln)</li>
-                        <li><strong>2012–2016:</strong> Tätigkeiten in der gehobenen Gastronomie, u. a. bei Hilton Taksim, Park Inn Nürnberg und Zwei Sinn Nürnberg</li>
-                        <li><strong>2016–2021:</strong> Selbstständiger Gastronom – Führung eines eigenen Restaurants, das ich erfolgreich aufgebaut und optimiert habe, bevor ich es 2021 verkaufte</li>
-                    </ul>
-                </li>
-                <strong>Technologie und Marktanalyse</strong>
-                    <ul>
-                        <li><strong>2021–2024:</strong> TikTok – Tätigkeiten als Market Specialist und Arbitrator im SPS-Team mit Fokus auf Marktanalysen, Prozessoptimierung und die Überwachung von Richtlinien</li>
-                        <li><strong>2023 bis heute:</strong> Weiterbildung und Projektarbeit in Cloud Computing, DevOps und Softwareentwicklung, mit besonderem Schwerpunkt auf Datenbanken und Python-Integration</li>
-                    </ul>
-                </li>
-            </ul>
-            <a href="https://github.com/username/project">View on GitHub</a>
-</div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: Cansin.Erdi@gmail.com</p>
+            <div class="project-card">
+                <h3>Gastronomy & Entrepreneurship</h3>
+                <ul>
+                    <li><strong>2008–2012:</strong> Architecture studies (discontinued to gain practical experience)</li>
+                    <li><strong>2012–2016:</strong> High-end gastronomy roles at Hilton Taksim, Park Inn Nürnberg, and Zwei Sinn Nürnberg</li>
+                    <li><strong>2016–2021:</strong> Self-employed restaurateur – successfully established and optimized my own restaurant before selling it in 2021</li>
+                    <li><strong>Current:</strong> Co-owner of <strong>Uludağ Kebapçısı</strong>, one of Turkey’s most renowned gastronomic brands</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>Technology & Market Analysis</h3>
+                <ul>
+                    <li><strong>2021–2024:</strong> Market Specialist and Arbitrator at TikTok SPS Team – focused on market analysis, process optimization, and policy monitoring</li>
+                    <li><strong>2023–Present:</strong> Ongoing education and project work in Cloud Computing, DevOps, and software development, with a focus on databases and Python integration</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Cansin Erdi</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
